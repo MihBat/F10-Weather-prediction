@@ -4,99 +4,34 @@
 # ================================================
 
 # -----------------------------------------
-# Python bytecode and cache files
-# -----------------------------------------
+# Ignore Python cache, envs, editors, etc. (same as before)
 __pycache__/
-*.py[cod]
-*.pyo
-*.so
-
-# -----------------------------------------
-# Virtual environments (Micromamba, Conda, venv, pipenv)
-# -----------------------------------------
+.ipynb_checkpoints/
+.env
+.venv/
 env/
 venv/
-.venv/
-*.env
-*.mamba
-micromamba/
-conda_env/
-.conda/
-
-# -----------------------------------------
-# Jupyter Notebook checkpoints
-# -----------------------------------------
-.ipynb_checkpoints/
-
-# -----------------------------------------
-# Editor / IDE configuration
-# -----------------------------------------
 .vscode/
-*.code-workspace
 .idea/
-*.sublime*
-
-# -----------------------------------------
-# Operating system files
-# -----------------------------------------
 .DS_Store
 Thumbs.db
-
-# -----------------------------------------
-# Log files
-# -----------------------------------------
 *.log
 
-# -----------------------------------------
-# DATA SCIENCE: ignore raw and generated data
-# (never track large datasets in Git)
-# -----------------------------------------
-data/
+# Ignore heavy/generated data
+data/raw/
+data/cache/
+data/tmp/
 datasets/
-raw_data/
 archive/
-openmeteo_data/
-noaa_data/
-*.csv
-*.json
-*.parquet
-*.xlsx
 
-# -----------------------------------------
-# Machine learning models (binary files)
-# -----------------------------------------
+# Keep processed per-location data in Git
+!data/processed/
+!data/processed/**/*.csv
+
+# (Do NOT ignore all CSVs globally anymore)
+# *.csv
+
+# Ignore models and big outputs
 models/
-*.h5
-*.pt
-*.pth
-*.pkl
-*.joblib
-*.sav
-
-# -----------------------------------------
-# Plots, figures, generated images
-# -----------------------------------------
 figures/
 plots/
-*.png
-*.jpg
-*.jpeg
-
-# -----------------------------------------
-# Dependency / environment files (to avoid noise)
-# -----------------------------------------
-*.lock
-Pipfile
-Pipfile.lock
-poetry.lock
-poetry.toml
-*.yaml
-*.yml
-
-# -----------------------------------------
-# Jupyter temp and backup files
-# -----------------------------------------
-*.jnk
-*.bak
-*.tmp
-/
