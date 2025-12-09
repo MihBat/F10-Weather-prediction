@@ -1,7 +1,0 @@
-﻿model,location,MAE_temperature_°C,MAE_humidity_%,RMSE_temperature_°C,RMSE_humidity_%
-Random Forest,Montreal,0.854,4.109,1.173,5.525
-Random Forest,Toronto,0.837,4.484,1.129,5.838
-Random Forest,Dallas,1.198,5.059,1.621,6.59
-MLP neural network,Montreal,0.893,4.026,1.207,5.387
-MLP neural network,Toronto,0.89,4.799,1.223,6.19
-MLP neural network,Dallas,1.326,4.901,1.737,6.326
