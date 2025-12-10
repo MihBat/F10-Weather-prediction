@@ -1,4 +1,4 @@
-# F10: Temperature and humidity prediction for North America three locations
+# F10: Temperature and humidity prediction for three locations of North America
 # Group 6
 - Mihhail Batura
   
