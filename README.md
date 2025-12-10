@@ -1,4 +1,4 @@
-# F10: Tempetature and humidity predicion for North America three locations
+# F10: Temperature and humidity prediction for North America three locations
 # Group 6
 - Mihhail Batura
   
@@ -14,7 +14,7 @@
 - Historical hourly weather data for Montreal, Toronto, and Dallas (2013–2016) from Kaggle was used for model training. Hourly weather data from Open-Meteo for 2023 served as the test dataset. Dallas was included as a contrasting location due to its more continental and variable southern climate relative to southern Canada.
 - List:
 - initial train data  - https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data/data
-- inital test data - https://open-meteo.com/
+- initial test data - https://open-meteo.com/
 
 **Methodology** 
 - Two machine learning models were used for weather forecasting in this study: a Random Forest regressor and a Multilayer Perceptron (MLP) neural network. Both models were trained using historical hourly meteorological data from Montreal, Toronto, and Dallas. The feature set included atmospheric variables (temperature, humidity, pressure, wind speed, wind direction) as well as engineered time-related features such as hour, month, cyclical month encoding (sin/cos), and temperature lag values (1-hour, 24-hour, and 24-hour rolling mean).
