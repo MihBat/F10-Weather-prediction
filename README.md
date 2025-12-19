@@ -24,14 +24,12 @@
 - Model performance was evaluated on 2023 test data using two standard metrics: Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). The Random Forest served as a strong baseline, while the MLP provided a neural-network approach for comparison.
 
 **Steps and working hours**
-- Choosing a topic of project and choosing training data (4 hours)
+- choosing a topic of project and choosing training data (4 hours)
 - primary data preparation and evaluation (8 hours)
 - setting up GITHUB repository (8 hours) - it is new environment for me
 - new train data selection, preparation and evaluation, test data preparation (10 hours)
 - analysis, include using two machine learning methods (RF and MLP), graph visualisation (15 hours)
 - poster preparation (10 hours)
 - ipynb-notebooks editing (5 hours)
-
-**P.S. Edited Jupyper Notebooks coming soon!**
 
 
